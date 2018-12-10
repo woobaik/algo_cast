@@ -27,7 +27,7 @@ function fib(n) {
     return n
   }
 
-  return fib(n-1) + fib(n-2)
+  return fib(n - 1) + fib(n - 2)
 }
 
 fib = memoization(fib)
