@@ -26,7 +26,6 @@ function matrix(n) {
   for (let i = 0; i < n; i++) {
     result.push([]);
   }
-
   while (startCol <= endCol && startRow <= endRow) {
 
     for (let i = startCol; i <= endCol; i++) {
@@ -36,7 +35,7 @@ function matrix(n) {
 
     startRow += 1;
 
-    for ( let i = startRow; i <= endRow; i++) {
+    for (let i = startRow; i <= endRow; i++) {
       result[i][endCol] = counter;
       counter += 1;
     }
@@ -72,23 +71,7 @@ function matrix(n) {
 
 
 
-
-
 module.exports = matrix;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
